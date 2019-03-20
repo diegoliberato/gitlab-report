@@ -1,0 +1,7 @@
+# What's new?
+
+### Milestone: {{milestone}}
+
+{{#issues}}
+* {{title}}
+{{/issues}}
