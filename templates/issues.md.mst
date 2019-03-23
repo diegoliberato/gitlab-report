@@ -1,0 +1,12 @@
+---
+List of all issues
+---
+
+# Milestone: {{milestone}}
+## Total: {{issues.length}}
+
+| Issue | Author |
+| ------ | ------ |
+{{#issues}}
+| {{title}} | {{author.name}} |
+{{/issues}}
