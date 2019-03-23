@@ -1,9 +1,15 @@
 ---
 List of all issues
 ---
+# {{project.name}}
 
-# Milestone: {{milestone}}
-## Total: {{issues.length}}
+{{project.description}}  
+
+**Milestone**: {{milestone.title}}  
+**Start date**: {{milestone.start_date}}  
+**Due date**: {{milestone.due_date}}  
+
+**Total**: {{issues.length}}
 
 | Issue | Author |
 | ------ | ------ |
