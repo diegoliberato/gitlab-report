@@ -3,7 +3,7 @@ import readline from 'readline-sync';
 import reports from './reports';
 import services from './services';
 
-const askAndReturnMilestone = async projectId => {
+const askAndReturnMilestone = async (projectId) => {
   const milestones = await services.milestones.findbyId(projectId);
   const items = milestones.map(milestone => milestone.title);
   return milestones[readline.keyInSelect(items, 'Type a milestone: ')];
