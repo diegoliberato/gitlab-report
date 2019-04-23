@@ -11,8 +11,8 @@ List of all issues
 
 **Total**: {{issues.length}}
 
-| Issue | Author |
-| ------ | ------ |
+| Issue | Author | Estimate | Spend |
+| ------ | ------ | ------ | ------ |
 {{#issues}}
-| {{title}} | {{author.name}} |
+| {{title}} | {{author.name}} | {{time_stats.human_time_estimate}} | {{time_stats.human_total_time_spent}}
 {{/issues}}
